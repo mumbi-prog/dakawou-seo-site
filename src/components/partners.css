@@ -1,0 +1,129 @@
+partners {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-wrapper {
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.carousel-wrapper:before,
+.carousel-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+}
+
+.carousel-wrapper:before {
+    left: 0;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+}
+
+.carousel-wrapper:after {
+    right: 0;
+    background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+}
+
+.carousel-track {
+    display: flex;
+    animation: slide 24s linear infinite;
+    width: max-content;
+    min-width: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.carousel-wrapper:hover .carousel-track {
+    animation-play-state: paused;
+}
+
+.carousel-image {
+    flex-shrink: 0;
+    height: 50px;
+    width: 80px;
+    margin: 20px 15px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Large screens */
+@media (min-width: 1201px) {
+    .carousel-image {
+        width: 90px;
+        margin: 20px 18px;
+    }
+}
+
+/* Critical 1000px breakpoint fix */
+@media (max-width: 1200px) and (min-width: 801px) {
+    .carousel-wrapper {
+        height: 90px;
+        max-width: 100%;
+    }
+
+    .carousel-image {
+        height: 45px;
+        width: 75px;
+        margin: 20px 12px;
+    }
+
+    .carousel-track {
+        width: max-content;
+        min-width: 200%;
+    }
+}
+
+/* Medium screens */
+@media (max-width: 800px) and (min-width: 417px) {
+    .carousel-wrapper {
+        height: 85px;
+    }
+
+    .carousel-image {
+        height: 40px;
+        width: 70px;
+        margin: 20px 8px;
+    }
+}
+
+/* Small screens */
+@media (max-width: 416px) {
+    .carousel-wrapper {
+        padding: 0 10px;
+        margin-bottom: -15px;
+        height: 80px;
+    }
+
+    .carousel-image {
+        height: 35px;
+        width: 60px;
+        margin: 15px 5px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .partners {
+        padding: 0 10px;
+    }
+
+    .carousel-wrapper:before,
+    .carousel-wrapper:after {
+        width: 100px;
+    }
+}
