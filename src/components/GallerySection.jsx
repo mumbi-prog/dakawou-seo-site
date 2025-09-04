@@ -3,7 +3,8 @@ import './gallery.css'
 import './landing.css'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
-import { RiArrowDropLeftLine, RiArrowUpDoubleFill } from 'react-icons/ri'
+import { RiArrowUpDoubleFill } from 'react-icons/ri'
+import { IoIosReturnLeft } from "react-icons/io";
 
 import img from '../assets/gallery/pic1.png'
 import pc2 from '../assets/gallery/pc2.png'
@@ -80,11 +81,11 @@ function Gallery() {
         </h1>
       </div>
 
-      <div className='mx-[20px] mt-[-140px] z-40 bg-white p-[20px]'>
+      <div className='mx-[20px] mt-[-140px] z-40 bg-white p-[13px] text-[15px]'>
         <ul>
           <Link to='/' className="flex items-center font-parkinsans mb-[20px] text-b-orange font-semibold hover:underline hover:translate-x-2 transition duration-300">
-            <RiArrowDropLeftLine style={{ fontSize: '40px' }} />
-            <span className='text-[13px]'>Back to Home</span>
+           <span><IoIosReturnLeft style={{ fontSize: '20px' }} /></span> 
+            <span className='pl-[13px]'>Home</span>
           </Link>
         </ul>
 

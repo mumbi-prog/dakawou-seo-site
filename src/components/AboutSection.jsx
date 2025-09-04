@@ -1,9 +1,9 @@
 import Footer from './Footer'
 import NavComp from './NavComp'
 import './abt.css'
-import { RiArrowDropLeftLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import abtsec from '../assets/pictures/about.png'
+import { IoIosReturnLeft } from 'react-icons/io'
 
 function AboutSection() {
   return (
@@ -19,7 +19,7 @@ function AboutSection() {
         <div className="mx-[20px] mt-[-90px] z-40 bg-white p-[20px]">
             <ul>
                 <Link to='/' className="flex items-center font-parkinsans mb-[20px] text-b-orange font-semibold hover:font-semibold hover:underline hover:translate-x-2 transition duration-300 ">
-                    <RiArrowDropLeftLine style={{fontSize : '40px'}}/> <a href="#home" className='text-[13px]'>Back to Home</a>
+                    <IoIosReturnLeft style={{fontSize : '20px'}}/> <a href="#home" className='pl-[13px] text-[15px]'>Home</a>
                 </Link>
             </ul>
 
