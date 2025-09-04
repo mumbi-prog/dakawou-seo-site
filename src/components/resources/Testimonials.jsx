@@ -159,6 +159,11 @@ function Testimonials() {
     },
   ];
 
+  const [current, setCurrent] = useState(0);
+  const [itemsPerSlide, setItemsPerSlide] = useState(
+    window.innerWidth <= 700 ? 1 : 2
+  );
+
 
 
   return (
