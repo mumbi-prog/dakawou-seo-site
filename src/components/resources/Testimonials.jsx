@@ -174,6 +174,10 @@ function Testimonials() {
 
   const totalSlides = testimonials.length - itemsPerSlide + 1;
 
+  const prevSlide = () => {
+    setCurrent((prev) => (prev === 0 ? totalSlides - 1 : prev - 1));
+  };
+
 
 
   return (
