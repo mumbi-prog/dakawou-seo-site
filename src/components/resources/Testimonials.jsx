@@ -78,9 +78,12 @@ function Testimonials() {
       
         <div className="md:col-span-1 flex flex-col items-start justify-center">
           <BiSolidQuoteAltLeft size={60} className="text-gray-400 mb-4 " />
-          <h2 className="text-4xl md:text-3xl content-title font-playfair font-bold text-gray-800 mb-6">
-            What our customers are saying
-          </h2>
+          <div className="content-div mb-5">
+            <h2 className="text-4xl md:text-3xl content-title capitalize font-playfair font-bold text-gray-800 mb-1">
+              What our clients say
+            </h2>
+            <div className="title-line block m-auto w-17%] md:w-[14.5%] border-t-[4px] border-b-orange "></div>
+          </div>
           <p className="text-[12px] italic text-gray-900 text-center mb-6">
             Trusted journeys, proven performance.
           </p>
