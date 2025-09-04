@@ -164,7 +164,15 @@ function Testimonials() {
     window.innerWidth <= 700 ? 1 : 2
   );
 
+  useEffect(() => {
+    const handleResize = () => {
+      setItemsPerSlide(window.innerWidth <= 700 ? 1 : 2);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
+ 
 
   return (
     <section className="bg-gray-50 py-16 px-6">
