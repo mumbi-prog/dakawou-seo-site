@@ -15,7 +15,7 @@ import AwardingBodies from "./AwardingBodies";
 import FAQSection from "./FAQSection";
 import Contact from "./Contact";
 import Testimonials from "../components/resources/Testimonials";
-import Privacy from "./legal/Privacy";
+import Terms from "./legal/Terms";
 
 function HomePage() {
   return (
@@ -50,7 +50,7 @@ function HomePage() {
       <Testimonials />
       <FAQSection />
       <Contact /> */}
-      <Privacy />
+      <Terms />
       
     </div>
   );
