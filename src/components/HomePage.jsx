@@ -15,6 +15,7 @@ import AwardingBodies from "./AwardingBodies";
 import FAQSection from "./FAQSection";
 import Contact from "./Contact";
 import Testimonials from "../components/resources/Testimonials";
+import Privacy from "./legal/Privacy";
 
 function HomePage() {
   return (
@@ -33,7 +34,7 @@ function HomePage() {
         <meta name="twitter:image" content="https://dakawou.com/images/seo/s1.jpg" />
       </Helmet>
 
-      <NavBar />
+      {/* <NavBar />
       <Hero />
       <About />
       <CounterSection />
@@ -48,7 +49,8 @@ function HomePage() {
       <Coverage />
       <Testimonials />
       <FAQSection />
-      <Contact />
+      <Contact /> */}
+      <Privacy />
       
     </div>
   );
