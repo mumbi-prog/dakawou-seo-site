@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
 import About from "./About";
-import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Coverage from "./Coverage";
 import Values from "./Values";
@@ -19,10 +18,13 @@ import Terms from "./legal/Terms";
 
 function HomePage() {
   return (
-    <div>
+    <div className="pt-[80px]">  
       <Helmet>
         <title>Dakawou Transport Limited</title>
-        <meta name="description" content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region." />
+        <meta
+          name="description"
+          content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region."
+        />
         <meta property="og:title" content="Dakawou Transport Limited" />
         <meta property="og:description" content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region." />
         <meta property="og:image" content="https://dakawou.com/images/seo/s1.jpg" />
@@ -34,29 +36,24 @@ function HomePage() {
         <meta name="twitter:image" content="https://dakawou.com/images/seo/s1.jpg" />
       </Helmet>
 
-      <NavBar />
-      <Hero />
-      <About />
-      <CounterSection />
-      <Values />
-      <Goals />
-      <MissionVision />
-      <Services />
+      <div id="home"><Hero /></div>
+      <div id="about"><About /></div>
+      <div id="counter"><CounterSection /></div>
+      <div id="values"><Values /></div>
+      <div id="goals"><Goals /></div>
+      <div id="mission"><MissionVision /></div>
+      <div id="services"><Services /></div>
       <AwardingBodies />
-      <Awards />
-      <Gallery />
+      <div id="awards"><Awards /></div>
+      <div id="gallery"><Gallery /></div>
       <Partners />
-      <Coverage />
-      <Testimonials />
+      <div id="coverage"><Coverage /></div>
+      <div id="testimonials"><Testimonials /></div>
       <FAQSection />
-      <Contact />
-      <Terms />
-      
+      <div id="contact"><Contact /></div>
+      <div id="terms"><Terms /></div>
     </div>
   );
 }
 
 export default HomePage;
-
-
-// // final commit, wueh!!
