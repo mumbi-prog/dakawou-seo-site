@@ -18,7 +18,7 @@ import Terms from "./legal/Terms";
 
 function HomePage() {
   return (
-    <div className="pt-[80px]">  
+    <div className="hidden-upper pt-[80px]">  
       <Helmet>
         <title>Dakawou Transport Limited</title>
         <meta
