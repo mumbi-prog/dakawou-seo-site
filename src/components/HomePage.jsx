@@ -34,7 +34,7 @@ function HomePage() {
         <meta name="twitter:image" content="https://dakawou.com/images/seo/s1.jpg" />
       </Helmet>
 
-      {/* <NavBar />
+      <NavBar />
       <Hero />
       <About />
       <CounterSection />
@@ -49,7 +49,7 @@ function HomePage() {
       <Coverage />
       <Testimonials />
       <FAQSection />
-      <Contact /> */}
+      <Contact />
       <Terms />
       
     </div>

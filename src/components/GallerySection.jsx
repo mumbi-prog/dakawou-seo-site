@@ -1,4 +1,3 @@
-import NavComp from './NavComp'
 import './gallery.css'
 import './landing.css'
 import Footer from './Footer'
@@ -73,7 +72,7 @@ const galleryImages = [
 function Gallery() {
   return (
     <div>
-      <NavComp />
+      {/* <NavComp /> */}
       <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[60vh] z-[-20]">
         <div className="gallery-overlay absolute inset-0 bg-black/60"></div>
         <h1 id='gset-title' className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">

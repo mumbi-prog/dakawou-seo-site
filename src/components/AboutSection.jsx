@@ -1,5 +1,4 @@
 import Footer from './Footer'
-import NavComp from './NavComp'
 import './abt.css'
 import { Link } from 'react-router-dom'
 import abtsec from '../assets/pictures/about.png'
@@ -8,7 +7,6 @@ import { IoIosReturnLeft } from 'react-icons/io'
 function AboutSection() {
   return (
     <div>
-        <NavComp />
         <div className="about-container bg-cover bg-center relative overflow-hidden h-[60vh] z-[-20]">
             <div className="about-overlay absolute inset-0 bg-black/60"></div>
             <h1 className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
