@@ -1,88 +1,3 @@
-// import { useState } from 'react';
-// import { useNavigate, useLocation } from 'react-router-dom';
-// import logo from '../assets/pictures/dakalogo.png';
-// import './landing.css';
-// import { FaBars, FaTimes } from 'react-icons/fa';
-
-// function NavBar() {
-//   const [menuOpen, setMenuOpen] = useState(false);
-//   const navigate = useNavigate();
-//   const location = useLocation();
-
-//   const sections = ['Home', 'About', 'Services', 'Awards', 'Gallery', 'Coverage', 'Contact'];
-
-//   const toggleMenu = () => setMenuOpen(!menuOpen);
-
-//   const handleNavClick = (sectionId) => {
-//     const targetId = sectionId.toLowerCase();
-
-//     if (location.pathname !== '/') {
-//       navigate('/');
-//       setTimeout(() => scrollToSection(targetId), 100);
-//     } else {
-//       scrollToSection(targetId);
-//     }
-
-//     setMenuOpen(false);
-//   };
-
-//   const scrollToSection = (id) => {
-//     const section = document.getElementById(id);
-//     if (section) {
-//       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-//     }
-//   };
-
-//   return (
-//     <div className="navbar-content flex items-center justify-between py-[5px] bg-white shadow-md px-[20px] z-50 fixed top-0 left-0 w-full">
-//       <div className="flex items-center space-x-[20px]">
-//         <img src={logo} alt="Company Logo" className="h-[70px]" />
-//         <div className="logo-content flex flex-col items-center justify-center">
-//           <p className="uppercase font-bold italic font-merriweather">Dakawou Transport Ltd.</p>
-//           <div className="border-t-[2.5px] border-black w-full"></div>
-//           <p className="text-red-500 font-pinyon font-semibold text-xl">exceeding expectations!</p>
-//         </div>
-//       </div>
-
-//       {/* Desktop Nav */}
-//       <div className="nav-container hidden md:flex mx-[30px] space-x-8">
-//         {sections.map((item) => (
-//           <span
-//             key={item}
-//             onClick={() => handleNavClick(item)}
-//             className="nav-link text-white font-semibold cursor-pointer hover:text-red-500"
-//           >
-//             {item}
-//           </span>
-//         ))}
-//       </div>
-
-
-//       <div className="menu-icon md:hidden mr-[20px] text-white cursor-pointer" onClick={toggleMenu}>
-//         {menuOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
-//       </div>
-
-//       {/* Mobile Menu */}
-//       {menuOpen && (
-//         <div className="mobile-menu absolute top-[80px] left-0 w-full bg-black text-white shadow-md flex flex-col space-y-4 py-4 px-6 z-50">
-//           {sections.map((item) => (
-//             <span
-//               key={item}
-//               onClick={() => handleNavClick(item)}
-//               className="mobile-nav-link font-semibold cursor-pointer hover:text-b-orange"
-//             >
-//               {item}
-//             </span>
-//           ))}
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default NavBar;
-
-
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -119,6 +34,7 @@ const NavBar = () => {
   };
 
   const navItems = [
+    {label: 'Home', id: 'home' },
     {
       label: 'About Us',
       children: [
@@ -171,7 +87,7 @@ const NavBar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex space-x-8 items-center">
+      {/* <div className="hidden md:flex space-x-8 items-center">
         {navItems.map((item) => (
           <div
             key={item.label}
@@ -187,9 +103,9 @@ const NavBar = () => {
             </span>
 
             {/* Dropdown */}
-            {item.children && (
+            {/* {item.children && (
               <div
-                className={`absolute top-full left-0 mt-2 bg-white shadow-lg rounded-md py-2 min-w-[220px] z-50 ${
+                className={`absolute top-full left-0 mt-[30px] bg-white shadow-lg rounded-md py-2 min-w-[220px] z-50 ${
                   activeDropdown === item.label ? 'block' : 'hidden'
                 }`}
               >
@@ -203,6 +119,43 @@ const NavBar = () => {
                   </div>
                 ))}
               </div>
+            )}
+          </div>
+        ))}
+      </div> */} */}
+      {/* Desktop Menu */}
+      <div className="hidden md:flex space-x-8 items-center">
+        {navItems.map((item) => (
+          <div
+            key={item.label}
+            className="relative"
+            onMouseEnter={() => setActiveDropdown(item.label)}
+            onMouseLeave={() => setActiveDropdown(null)}
+          >
+            <span
+              onClick={() => !item.children && handleNavClick(item.id)}
+              className="cursor-pointer font-semibold text-white hover:text-red-500"
+            >
+              {item.label}
+            </span>
+
+            {/* Dropdown */}
+            {item.children && activeDropdown === item.label && (
+              <div
+              className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 min-w-[220px] z-50
+                        translate-y-[10px] before:absolute before:-top-2 before:left-0 before:w-full before:h-2 before:bg-transparent"
+            >
+              {item.children.map((child) => (
+                <div
+                  key={child.label}
+                  onClick={() => handleNavClick(child.id)}
+                  className="px-4 py-2 text-sm text-orange-700 cursor-pointer hover:bg-gray-100 transition"
+                >
+                  {child.label}
+                </div>
+              ))}
+              </div>
+            
             )}
           </div>
         ))}

@@ -51,7 +51,6 @@ function HomePage() {
       <div id="testimonials"><Testimonials /></div>
       <FAQSection />
       <div id="contact"><Contact /></div>
-      <div id="terms"><Terms /></div>
     </div>
   );
 }
