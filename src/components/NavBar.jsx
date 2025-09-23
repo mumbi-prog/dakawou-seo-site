@@ -39,9 +39,9 @@ const NavBar = () => {
       label: 'About Us',
       children: [
         { label: 'Overview', id: 'about' },
-        { label: 'Mission & Vision', id: 'missionvision' },
+        { label: 'Mission & Vision', id: 'mission' },
         { label: 'Where We Operate', id: 'coverage' },
-        { label: 'SDGs & Sustainability', id: 'sdgs' },
+        { label: 'SDGs & Sustainability', id: 'goals' },
         { label: 'Awards', id: 'awards' },
       ],
     },
@@ -85,44 +85,7 @@ const NavBar = () => {
           <p className="text-red-500 font-pinyon font-semibold text-xl">exceeding expectations!</p>
         </div>
       </div>
-
-      {/* Desktop Menu */}
-      {/* <div className="hidden md:flex space-x-8 items-center">
-        {navItems.map((item) => (
-          <div
-            key={item.label}
-            className="relative group"
-            onMouseEnter={() => setActiveDropdown(item.label)}
-            onMouseLeave={() => setActiveDropdown(null)}
-          >
-            <span
-              onClick={() => !item.children && handleNavClick(item.id)}
-              className="cursor-pointer font-semibold text-white hover:text-red-500"
-            >
-              {item.label}
-            </span>
-
-            {/* Dropdown */}
-            {/* {item.children && (
-              <div
-                className={`absolute top-full left-0 mt-[30px] bg-white shadow-lg rounded-md py-2 min-w-[220px] z-50 ${
-                  activeDropdown === item.label ? 'block' : 'hidden'
-                }`}
-              >
-                {item.children.map((child) => (
-                  <div
-                    key={child.label}
-                    onClick={() => handleNavClick(child.id)}
-                    className="px-4 py-2 text-sm text-orange-700 cursor-pointer hover:bg-gray-100 transition"
-                  >
-                    {child.label}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
-      </div> */} */}
+ 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-8 items-center">
         {navItems.map((item) => (

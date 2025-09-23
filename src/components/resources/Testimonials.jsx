@@ -5,45 +5,45 @@ import { BiSolidQuoteAltLeft } from "react-icons/bi";
 function Testimonials() {
   const testimonials = [
     {
-      name: "Karan",
-      role: "Customer",
+      name: "Rubis Energy",
+      role: "Client",
       review:
-        "My buying experience is so nice, and received me very politely. Riding experience is also very good. Very good performance. I never experienced such a kind of performance. Very good service.",
+        "Dakawou Transport Ltd has consistently delivered exceptional service. Their commitment to safety and efficiency is commendable, making them a trusted partner in our supply chain.",
       stars: 5,
     },
     {
-      name: "Catherine",
-      role: "Customer",
+      name: "Vivo Energy Kenya",
+      role: "Client",
       review:
-        "I love my e-bike and the customer service is excellent. They respond in a timely manner with loads of information about e-bikes, accessories and maintenance information.",
+        "Dakawou Transport Ltd has been a reliable partner for our logistics needs. Their professionalism and timely deliveries have greatly contributed to our operations.",
       stars: 5,
     },
     {
-      name: "Peter",
-      role: "Customer",
+      name: "Ola Energy",
+      role: "Client",
       review:
-        "Visited EO store. Best place, particularly welds, looked very nice and I took small test ride within the parking lot area. We were also happy with customization after sales and overall satisfied.",
+        "We have been working with Dakawou Transport Ltd for several years, and they have consistently exceeded our expectations. Their dedication to customer satisfaction is evident in every interaction.",
       stars: 5,
     },
     {
-      name: "Amira",
-      role: "Customer",
+      name: "Dalbit Petroleum",
+      role: "Client",
       review:
-        "Great service and amazing support! The team went above and beyond to ensure I had everything I needed. Highly recommend!",
+        "Dakawou Transport Ltd is a top-notch logistics provider. Their attention to detail and commitment to safety make them a standout in the industry.",
       stars: 5,
     },
     {
-      name: "James",
-      role: "Customer",
+      name: "Bamburi Cement",
+      role: "Client",
       review:
-        "The product quality exceeded my expectations. Smooth process from purchase to delivery. Would definitely buy again.",
+        "Dakawou Transport Ltd has been instrumental in ensuring the smooth transportation of our products. Their team is professional, reliable, and always goes the extra mile.",
       stars: 4,
     },
     {
-      name: "Jaja",
-      role: "Customer",
+      name: "Galana Energy Kenya",
+      role: "Client",
       review:
-        "The product quality exceeded my expectations. Smooth process from purchase to delivery. Would definitely buy again.",
+        "We highly recommend Dakawou Transport Ltd for their exceptional service and dedication to excellence. They have been a valuable partner in our logistics operations.",
       stars: 4,
     },
   ];
