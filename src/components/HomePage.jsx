@@ -14,6 +14,7 @@ import AwardingBodies from "./AwardingBodies";
 import FAQSection from "./FAQSection";
 import Contact from "./Contact";
 import Testimonials from "../components/resources/Testimonials";
+import Blog from "./resources/Blog";
 import Terms from "./legal/Terms";
 import ContactSection from "./ContactSection";
 
@@ -37,7 +38,7 @@ function HomePage() {
         <meta name="twitter:image" content="https://dakawou.com/images/seo/s1.jpg" />
       </Helmet>
 
-      <div id="home"><Hero /></div>
+      {/* <div id="home"><Hero /></div>
       <div id="about"><About /></div>
       <div id="counter"><CounterSection /></div>
       <div id="values"><Values /></div>
@@ -51,7 +52,8 @@ function HomePage() {
       <div id="coverage"><Coverage /></div>
       <div id="testimonials"><Testimonials /></div>
       <FAQSection />
-      <div id="contact"><Contact /></div>
+      <div id="contact"><Contact /></div> */}
+      <Blog />
     </div>
   );
 }
