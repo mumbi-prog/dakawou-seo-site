@@ -1,9 +1,11 @@
-import tr1 from "../assets/pictures/tr2.jpg";
+import tr1 from "../../assets/pictures/tr2.jpg";
 import { FaGasPump } from "react-icons/fa";
 import { GiCargoCrate } from "react-icons/gi";
 import { FaGlobeAfrica } from "react-icons/fa";
 import { FaCogs } from "react-icons/fa";
 import { AiFillSafetyCertificate } from "react-icons/ai";
+import Footer from "../Footer";
+import './services.css'
 
 function ServicesSection() {
   const serviceCards =[
@@ -96,9 +98,9 @@ function ServicesSection() {
           {serviceCards.map((card) => (
             <div
               key={card.id}
-              className="flex items-start gap-6 bg-slate-100 text-dark-g p-6 rounded-xl text-dark-g shadow-md hover:shadow-xl hover:bg-dark-g hover:text-white transition-shadow duration-300 hover:scale-[1.02] transform transition-transform transition-colors"
+              className="service-card flex items-start gap-6 bg-slate-100 text-dark-g p-6 rounded-xl text-dark-g shadow-md hover:shadow-xl hover:bg-dark-g hover:text-white transition-shadow duration-300 hover:scale-[1.02] transform transition-transform transition-colors"
             >
-              <div className="shrink-0">{card.icon}</div>
+              <div className=" card-icon shrink-0">{card.icon}</div>
               <div className="text-[13px]">
                 <h2 className="text-xl font-semibold mb-2 ">{card.title}</h2>
                 <p className="mb-3">{card.description}</p>
@@ -154,6 +156,10 @@ function ServicesSection() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="footer-cont bg-dark-g w-full">
+        <Footer />
       </div>
 
     </div>

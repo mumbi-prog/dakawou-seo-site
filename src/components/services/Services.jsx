@@ -1,7 +1,7 @@
 import { FaHandsHelping, FaTruck, FaUserTie } from "react-icons/fa";
 import { AiFillClockCircle } from "react-icons/ai";
 import { MdOutlineGpsFixed } from "react-icons/md";
-import './landing.css'
+import '../landing.css'
 
 function Services() {
   return (

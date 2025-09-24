@@ -6,7 +6,7 @@ import Values from "./Values";
 import Goals from "./Goals";
 import MissionVision from "./MissionVision";
 import Awards from "./Awards";
-import Services from "./Services";
+import Services from "./services/Services";
 import Gallery from "./Gallery";
 import Partners from "./Partners";
 import CounterSection from "./CounterSection";
@@ -17,7 +17,7 @@ import Testimonials from "../components/resources/Testimonials";
 import Blog from "./resources/Blog";
 import Terms from "./legal/Terms";
 import ContactSection from "./ContactSection";
-import ServicesSection from "./ServicesSection";
+import ServicesSection from "./services/ServicesSection";
 
 function HomePage() {
   return (
