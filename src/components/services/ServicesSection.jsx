@@ -84,7 +84,7 @@ function ServicesSection() {
             </h1>
       </div>
 
-      <div className="services-container font-parkinsans py-[25px] px-[70px]">
+      <div className="services-cont font-parkinsans py-[25px] px-[70px]">
         
          <p className="text-[16px] text-center px-[50px] my-[20px]">
             At Dakawou Transport Limited, we deliver reliable, safe, and efficient transport and logistics solutions across
@@ -94,7 +94,7 @@ function ServicesSection() {
           </p>
 
 
-        <div className="max-w-6xl mx-auto px-6 pb-16 grid gap-8 md:grid-cols-2">
+        <div className="services-container max-w-6xl mx-auto px-6 pb-16 grid gap-8 md:grid-cols-2">
           {serviceCards.map((card) => (
             <div
               key={card.id}

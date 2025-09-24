@@ -5,17 +5,23 @@
   }
 }
 
+/* services.css */
+
 @media (max-width: 920px) {
-  .services-container {
-    padding: 15px 20px;
-  }
-
-  .services-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
+    .card-icon {
+        font-size: 1.8rem;
+        /* or use width/height if it's an image */
+    }
 }
-@media (max-width: 1021px) {
 
+@media (max-width: 850px) {
+    .service-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .card-icon {
+        margin-bottom: 1rem;
+    }
 }
