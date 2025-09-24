@@ -61,13 +61,13 @@ const NavBar = () => {
         { label: 'Testimonials', id: 'testimonials' },
       ],
     },
-    {
-      label: 'Legal',
-      children: [
-        { label: 'Terms & Conditions', id: 'terms' },
-        { label: 'Privacy Policy', id: 'privacy' },
-      ],
-    },
+    // {
+    //   label: 'Legal',
+    //   children: [
+    //     { label: 'Terms & Conditions', id: 'terms' },
+    //     { label: 'Privacy Policy', id: 'privacy' },
+    //   ],
+    // },
     {
       label: 'Contact',
       id: 'contact',

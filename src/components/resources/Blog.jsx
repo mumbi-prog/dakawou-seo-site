@@ -37,10 +37,45 @@ function Blog() {
           date: "23rd Sept, 2025",
           link: "/blog/understanding-seo-2025",
         },
+        {
+          id: 5,
+          title: "Lorem Ipsum Dolor Sit Amet",
+          context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros. aut convallis. bendit.",
+          image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
+          author: "Mumbi Sylvia",
+          date: "23rd Sept, 2025",
+          link: "/blog/understanding-seo-2025",
+        },
+        {
+          id: 6,
+          title: "Lorem Ipsum Dolor Sit Amet",
+          context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros. aut convallis. bendit.",
+          image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
+          author: "Mumbi Sylvia",
+          date: "23rd Sept, 2025",
+          link: "/blog/understanding-seo-2025",
+        },
+        {
+          id: 7,
+          title: "Lorem Ipsum Dolor Sit Amet",
+          context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros. aut convallis. bendit.",
+          image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
+          author: "Mumbi Sylvia",
+          date: "23rd Sept, 2025",
+          link: "/blog/understanding-seo-2025",
+        },
+        {
+          id: 8,
+          title: "Lorem Ipsum Dolor Sit Amet",
+          context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros. aut convallis. bendit.",
+          image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
+          author: "Mumbi Sylvia",
+          date: "23rd Sept, 2025",
+          link: "/blog/understanding-seo-2025",
+        },
       ];
 
       return (
-        <div>
         <div className="blog-section">
           <div className="relative h-64 w-full bg-cover bg-center" style={{
               backgroundImage: "url('https://i.pinimg.com/736x/83/4c/85/834c8525f9071792434d476fdb5fdd7e.jpg')",
@@ -72,7 +107,6 @@ function Blog() {
             </div>
           </div>
         </div>
-</div>
       );
     }
 

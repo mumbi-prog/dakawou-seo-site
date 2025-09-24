@@ -17,6 +17,7 @@ import Testimonials from "../components/resources/Testimonials";
 import Blog from "./resources/Blog";
 import Terms from "./legal/Terms";
 import ContactSection from "./ContactSection";
+import ServicesSection from "./ServicesSection";
 
 function HomePage() {
   return (
@@ -53,7 +54,9 @@ function HomePage() {
       <div id="testimonials"><Testimonials /></div>
       <FAQSection />
       <div id="contact"><Contact /></div> */}
-      <Blog />
+
+      <ServicesSection/>
+      
     </div>
   );
 }
