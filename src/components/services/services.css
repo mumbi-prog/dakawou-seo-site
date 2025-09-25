@@ -1,27 +1,79 @@
 /* responsiveness for the services section bit */
 @media (max-width: 1100px) {
-  .services-container {
-    padding: 20px 30px;
-  }
-}
+    .sec-cont {
+        padding: 20px 50px;
+    }
 
-/* services.css */
-
-@media (max-width: 920px) {
-    .card-icon {
-        font-size: 1.8rem;
-        /* or use width/height if it's an image */
+    .sec-section h1 {
+        font-size: 40px;
     }
 }
 
-@media (max-width: 850px) {
-    .service-card {
+@media (max-width: 940px) {
+    .sec-cont {
+        padding: 20px 30px;
+    }
+
+    .responsive-icon {
+        font-size: 1.1rem;
+        width: 30px;
+        height: 30px;
+    }
+
+    .sec-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+}
+
+@media (max-width: 770px) {
+    .sec-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sec-card {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .responsive-icon {
+        margin-bottom: 1rem;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .sec-cont {
+        padding: 15px 20px;
+    }
+
+    .sec-slogan {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .sec-section h1 {
+        font-size: 32px;
+    }
+
+    .sec-card {
         flex-direction: column;
         align-items: center;
         text-align: left;
     }
 
-    .card-icon {
-        margin-bottom: 1rem;
+    .responsive-icon {
+        font-size: 20px;
+        margin: -7px auto;
+    }
+
+    .extras-number {
+        width: 40px;
+        height: 30px;
+        font-size: 20px;
     }
 }
