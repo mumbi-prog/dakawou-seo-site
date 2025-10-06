@@ -4,10 +4,9 @@ export const blogPosts = [
       id: 1,
       title: "Why Choosing the Right Transport Partner Matters for Your Business",
       author: "Mumbi Sylvia",
-      date: "23rd Sept, 2025",
+      date: "6th Oct, 2025",
       slug: "choosing-right-transport-partner-kenya",
-      image:
-        "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
+      image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
       sections: [
         {
           subtitle: "Introduction",

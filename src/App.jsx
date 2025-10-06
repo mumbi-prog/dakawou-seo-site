@@ -8,6 +8,7 @@ import Terms from './components/legal/Terms';
 import Privacy from './components/legal/Privacy';
 import ServicesSection from './components/services/ServicesSection';
 import Blog from './components/resources/Blog';
+import BlogDetails from './components/resources/BlogDetails';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contactsection" element={<ContactSection />} />
         <Route path="/servisec" element={<ServicesSection />} />
         <Route path="/blogs" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogDetails />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
