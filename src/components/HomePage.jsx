@@ -14,10 +14,6 @@ import AwardingBodies from "./AwardingBodies";
 import FAQSection from "./FAQSection";
 import Contact from "./Contact";
 import Testimonials from "../components/resources/Testimonials";
-import Blog from "./resources/Blog";
-import Terms from "./legal/Terms";
-import ContactSection from "./ContactSection";
-import ServicesSection from "./services/ServicesSection";
 
 function HomePage() {
   return (

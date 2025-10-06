@@ -59,7 +59,7 @@ const NavBar = () => {
     {
       label: 'Resources',
       children: [
-        { label: 'Blog', id: 'blog', type: 'scroll' },
+        { label: 'Blog', id: 'blog', type: 'route' },
         { label: 'Gallery', id: 'gallerysection', type: 'scroll' },
         { label: 'Testimonials', id: 'testimonials', type: 'scroll' },
       ],

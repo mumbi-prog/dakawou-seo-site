@@ -9,6 +9,12 @@
     }
 }
 
+@media (max-width: 960px) {
+    .extra-title h4{
+        max-width: 70%;
+    }
+}
+
 @media (max-width: 940px) {
     .sec-cont {
         padding: 20px 30px;
@@ -71,9 +77,5 @@
         margin: -7px auto;
     }
 
-    .extras-number {
-        width: 40px;
-        height: 30px;
-        font-size: 20px;
-    }
+    
 }
