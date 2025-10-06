@@ -22,7 +22,7 @@ function BlogDetails() {
       <img
         src={blog.image}
         alt={blog.title}
-        className="w-full h-80 object-cover rounded-xl mb-6"
+        className="w-full h-80 object-cover rounded-xl mb-6 pt-[60px]"
       />
       <h1 className="text-4xl font-bold mb-2">{blog.title}</h1>
       <p className="text-gray-500 mb-8">
@@ -37,7 +37,7 @@ function BlogDetails() {
 
           {section.paragraphs &&
             section.paragraphs.map((para, i) => (
-              <p key={i} className="text-gray-700 mb-3 leading-relaxed">
+              <p key={i} className="text-gray-700 mb-3 leading-relaxed font-parkinsans">
                 {para}
               </p>
             ))}
