@@ -20,57 +20,54 @@ const NavBar = () => {
     }
   };
 
-  const handleNavClick = (sectionId) => {
-    const targetId = sectionId.toLowerCase();
+  const handleNavClick = (id, type = 'scroll') => {
+    const targetId = id.toLowerCase();
 
-    if (location.pathname !== '/') {
-      navigate('/');
-      setTimeout(() => scrollToSection(targetId), 100);
+    if (type === 'route') {
+      navigate(`/${targetId}`);
     } else {
-      scrollToSection(targetId);
+      if (location.pathname !== '/') {
+        navigate('/');
+        setTimeout(() => scrollToSection(targetId), 100);
+      } else {
+        scrollToSection(targetId);
+      }
     }
 
     closeMenu();
   };
 
   const navItems = [
-    {label: 'Home', id: 'home' },
+    { label: 'Home', id: 'home', type: 'scroll' },
     {
       label: 'About Us',
       children: [
-        { label: 'Overview', id: 'about' },
-        { label: 'Mission & Vision', id: 'mission' },
-        { label: 'Where We Operate', id: 'coverage' },
-        { label: 'SDGs & Sustainability', id: 'goals' },
-        { label: 'Awards', id: 'awards' },
+        { label: 'Overview', id: 'about', type: 'scroll' },
+        { label: 'Mission & Vision', id: 'mission', type: 'scroll' },
+        { label: 'Where We Operate', id: 'coverage', type: 'scroll' },
+        { label: 'SDGs & Sustainability', id: 'goals', type: 'scroll' },
+        { label: 'Awards', id: 'awards', type: 'scroll' },
       ],
     },
     {
       label: 'Services',
       children: [
-        { label: 'Transport', id: 'services' },
-        { label: 'Fleet Safety', id: 'fleetsafety' },
-        { label: 'Logistics Solutions', id: 'logistics' },
+        { label: 'Overview', id: 'services', type: 'scroll' },
+        { label: 'Our Services', id: 'servisec', type: 'route' },
       ],
     },
     {
       label: 'Resources',
       children: [
-        { label: 'Blog', id: 'blog' },
-        { label: 'Gallery', id: 'gallery' },
-        { label: 'Testimonials', id: 'testimonials' },
+        { label: 'Blog', id: 'blog', type: 'scroll' },
+        { label: 'Gallery', id: 'gallerysection', type: 'scroll' },
+        { label: 'Testimonials', id: 'testimonials', type: 'scroll' },
       ],
     },
-    // {
-    //   label: 'Legal',
-    //   children: [
-    //     { label: 'Terms & Conditions', id: 'terms' },
-    //     { label: 'Privacy Policy', id: 'privacy' },
-    //   ],
-    // },
     {
       label: 'Contact',
-      id: 'contact',
+      id: 'contactsection',
+      type: 'route',
     },
   ];
 
@@ -85,7 +82,7 @@ const NavBar = () => {
           <p className="text-red-500 font-pinyon font-semibold text-xl">exceeding expectations!</p>
         </div>
       </div>
- 
+
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-8 items-center">
         {navItems.map((item) => (
@@ -96,7 +93,7 @@ const NavBar = () => {
             onMouseLeave={() => setActiveDropdown(null)}
           >
             <span
-              onClick={() => !item.children && handleNavClick(item.id)}
+              onClick={() => !item.children && handleNavClick(item.id, item.type)}
               className="cursor-pointer font-semibold text-white hover:text-red-500"
             >
               {item.label}
@@ -105,20 +102,19 @@ const NavBar = () => {
             {/* Dropdown */}
             {item.children && activeDropdown === item.label && (
               <div
-              className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 min-w-[220px] z-50
-                        translate-y-[10px] before:absolute before:-top-2 before:left-0 before:w-full before:h-2 before:bg-transparent"
-            >
-              {item.children.map((child) => (
-                <div
-                  key={child.label}
-                  onClick={() => handleNavClick(child.id)}
-                  className="px-4 py-2 text-sm text-orange-700 cursor-pointer hover:bg-gray-100 transition"
-                >
-                  {child.label}
-                </div>
-              ))}
+                className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 min-w-[220px] z-50
+                           translate-y-[10px] before:absolute before:-top-2 before:left-0 before:w-full before:h-2 before:bg-transparent"
+              >
+                {item.children.map((child) => (
+                  <div
+                    key={child.label}
+                    onClick={() => handleNavClick(child.id, child.type)}
+                    className="px-4 py-2 text-sm text-orange-700 cursor-pointer hover:bg-gray-100 transition"
+                  >
+                    {child.label}
+                  </div>
+                ))}
               </div>
-            
             )}
           </div>
         ))}
@@ -138,7 +134,7 @@ const NavBar = () => {
                 onClick={() =>
                   item.children
                     ? setActiveDropdown(activeDropdown === item.label ? null : item.label)
-                    : handleNavClick(item.id)
+                    : handleNavClick(item.id, item.type)
                 }
                 className="cursor-pointer font-semibold"
               >
@@ -150,7 +146,7 @@ const NavBar = () => {
                   {item.children.map((child) => (
                     <div
                       key={child.label}
-                      onClick={() => handleNavClick(child.id)}
+                      onClick={() => handleNavClick(child.id, child.type)}
                       className="text-sm cursor-pointer text-gray-300 hover:text-b-orange"
                     >
                       {child.label}
@@ -167,5 +163,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-

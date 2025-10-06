@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Terms from './components/legal/Terms';
 import Privacy from './components/legal/Privacy';
+import ServicesSection from './components/services/ServicesSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/gallerysection" element={<GallerySection />} />
         <Route path="/aboutsection" element={<AboutSection />} />
         <Route path="/contactsection" element={<ContactSection />} />
+        <Route path="/servisec" element={<ServicesSection />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>

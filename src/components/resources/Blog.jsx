@@ -8,7 +8,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23rd Sept, 2025",
-          link: "/blog/5-tips-for-improving-workflow",
+          link: "/blog/blog1",
         },
         {
           id: 2,
@@ -17,7 +17,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23 Sept, 2025",
-          link: "/blog/why-your-business-needs-a-blog",
+          link: "/blog/blog2",
         },
         {
           id: 3,
@@ -26,7 +26,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23 Sept, 2025",
-          link: "/blog/understanding-seo-2025",
+          link: "/blog/blog3",
         },
         {
           id: 4,
@@ -35,7 +35,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23rd Sept, 2025",
-          link: "/blog/understanding-seo-2025",
+          link: "/blog/blog4",
         },
         {
           id: 5,
@@ -44,7 +44,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23rd Sept, 2025",
-          link: "/blog/understanding-seo-2025",
+          link: "/blog/blog5",
         },
         {
           id: 6,
@@ -53,7 +53,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23rd Sept, 2025",
-          link: "/blog/understanding-seo-2025",
+          link: "/blog/blog6",
         },
         {
           id: 7,
@@ -62,7 +62,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23rd Sept, 2025",
-          link: "/blog/understanding-seo-2025",
+          link: "/blog/blog7",
         },
         {
           id: 8,
@@ -71,7 +71,7 @@ function Blog() {
           image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
           author: "Mumbi Sylvia",
           date: "23rd Sept, 2025",
-          link: "/blog/understanding-seo-2025",
+          link: "/blog/blog8",
         },
       ];
 
