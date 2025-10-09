@@ -71,11 +71,11 @@ function ServicesSection() {
   return (
     <div className="sec-section">
       <div
-        className="relative h-64 w-full bg-cover bg-center"
+        className="relative h-[300px] w-full bg-cover bg-center"
         style={{ backgroundImage: `url(${tr1})` }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
+        <h1 className="text-5xl font-bold pt-[60px] text-white text-center absolute inset-0 flex items-center justify-center z-10">
           Services We Provide
         </h1>
       </div>
@@ -110,7 +110,7 @@ function ServicesSection() {
         </div>
       </div>
 
-      <div className="extras-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-[30px]"> 
+      {/* <div className="extras-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-[30px]"> 
         <img src={tr1} alt="" className="grayscale w-full h-full object-cover hover:grayscale-0 transition duration-300"/> 
         <div className="extra-title bg-gray-200 flex flex-col justify-center items-left p-[40px]"> 
           <h5 className="font-semibold uppercase tracking-wider text-[14px] mb-[15px] text-dark-g">
@@ -126,8 +126,8 @@ function ServicesSection() {
                   1 
                 </h1> 
                 <div className="e-content">
-                  <h3 className="font-semibold text-[15px]">Lorem ipsum dolor sit amet consectetur</h3>
-                  <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum et distinctio.</p> 
+                  <h3 className="font-semibold text-[15px]">Skiled and Professional Team</h3>
+                  <p className="text-[13px]"></p> 
                 </div>
               </div>
 
@@ -136,7 +136,7 @@ function ServicesSection() {
                   2
                 </h1> 
                 <div className="e-content"> 
-                  <h3 className="font-semibold text-[15px]">Lorem dolor sit amet consectetur</h3> 
+                  <h3 className="font-semibold text-[15px]">Real Time Fleet Trackinf</h3> 
                   <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum et distinctio.</p> 
                 </div> 
               </div> 
@@ -146,14 +146,64 @@ function ServicesSection() {
                   3
                 </h1>
                 <div className="e-content">
-                  <h3 className="font-semibold text-[15px]">Lorem isit amet consectetur</h3> 
+                  <h3 className="font-semibold text-[15px]">Timely and Efficient Service</h3> 
                   <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum et distinctio.</p> 
                 </div> 
               </div> 
             </div> 
           </div> 
         </div> 
+      </div> */}
+
+      <div className="extras-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-[30px]"> 
+        <img src={tr1} alt="Fleet operations" className="grayscale w-full h-full object-cover hover:grayscale-0 transition duration-300"/> 
+        
+        <div className="extra-title bg-gray-200 flex flex-col justify-center items-left p-[40px]"> 
+          <h5 className="font-semibold uppercase tracking-wider text-[14px] mb-[15px] text-dark-g">
+            WHY PEOPLE CHOOSE US
+          </h5> 
+          
+          <h4 className="capitalize text-3xl max-w-[65%]">
+            Trusted logistics partner across <span className="italic">East & Central Africa</span>
+          </h4> 
+          
+          <div className="extras-cards-container my-[20px] g font-parkinsans"> 
+            <div className="extras-cards grid grid-cols-1 gap-[20px]"> 
+              
+              <div className="flex gap-8 items-center"> 
+                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
+                  1 
+                </h1> 
+                <div className="e-content">
+                  <h3 className="font-semibold text-[15px]">Skilled and Professional Team</h3>
+                  <p className="text-[13px]">Our experienced and highly trained staff ensure safe, efficient, and compliant transport solutions every time.</p> 
+                </div>
+              </div>
+
+              <div className="flex gap-8 items-center"> 
+                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
+                  2
+                </h1> 
+                <div className="e-content"> 
+                  <h3 className="font-semibold text-[15px]">Real-Time Fleet Tracking</h3> 
+                  <p className="text-[13px]">Our advanced tracking systems provide 24/7 visibility and control over your cargo, ensuring reliability and transparency.</p> 
+                </div> 
+              </div> 
+              
+              <div className="flex gap-8 items-center">
+                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
+                  3
+                </h1>
+                <div className="e-content">
+                  <h3 className="font-semibold text-[15px]">Timely and Efficient Service</h3> 
+                  <p className="text-[13px]">We take pride in our commitment to punctual deliveries and responsive service across all regions we operate in.</p> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
       </div>
+
 
       <div className="footer-cont bg-dark-g w-full">
         <Footer />
