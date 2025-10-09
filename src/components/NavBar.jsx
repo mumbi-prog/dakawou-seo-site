@@ -52,15 +52,15 @@ const NavBar = () => {
     {
       label: 'Services',
       children: [
-        { label: 'Overview', id: 'services', type: 'scroll' },
-        { label: 'Our Services', id: 'servisec', type: 'route' },
+        { label: 'Overview', id: 'service', type: 'scroll' },
+        { label: 'Our Services', id: 'services', type: 'route' },
       ],
     },
     {
       label: 'Resources',
       children: [
         { label: 'Blog', id: 'blog', type: 'route' },
-        { label: 'Gallery', id: 'gallerysection', type: 'scroll' },
+        { label: 'Gallery', id: 'gallerysection', type: 'route' },
         { label: 'Testimonials', id: 'testimonials', type: 'scroll' },
       ],
     },

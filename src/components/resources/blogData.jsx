@@ -3,7 +3,7 @@
 //     {
 //       id: 1,
 //       title: "Why Choosing the Right Transport Partner Matters for Your Business",
-//       author: "Mumbi Sylvia",
+//       author: "Admin",
 //       date: "6th Oct, 2025",
 //       slug: "choosing-right-transport-partner-kenya",
 //       image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
@@ -47,7 +47,7 @@ export const blogPosts = [
     {
       id: 1,
       title: "Why Choosing the Right Transport Partner Matters for Your Business",
-      author: "Mumbi Sylvia",
+      author: "Admin",
       date: "23rd Sept, 2025",
       primaryKeyword: "transport in Kenya",
       secondaryKeywords: [
@@ -114,7 +114,7 @@ export const blogPosts = [
     {
       id: 2,
       title: "5 Ways Dakawou Ensures Safe and Reliable Delivery Every Time",
-      author: "Mumbi Sylvia",
+      author: "Admin",
       date: "26th Sept, 2025",
       primaryKeyword: "safe goods delivery",
       secondaryKeywords: [
@@ -189,7 +189,7 @@ export const blogPosts = [
     {
       id: 3,
       title: "The Future of Logistics in Kenya: Trends Every Business Should Watch",
-      author: "Mumbi Sylvia",
+      author: "Admin",
       date: "29th Sept, 2025",
       primaryKeyword: "logistics company Nairobi",
       secondaryKeywords: [
@@ -262,7 +262,7 @@ export const blogPosts = [
     {
       id: 4,
       title: "How Dakawou Supports SMEs with Affordable Transport Solutions",
-      author: "Mumbi Sylvia",
+      author: "Admin",
       date: "3rd Oct, 2025",
       primaryKeyword: "affordable transport solutions",
       secondaryKeywords: [

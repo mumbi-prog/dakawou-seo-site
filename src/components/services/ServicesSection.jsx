@@ -1,4 +1,5 @@
-import tr1 from "../../assets/gallery/pic0008.png";
+import tr1 from "../../assets/gallery/bl9.jpg";
+import tr2 from "../../assets/gallery/pic0008.png";
 import { FaGasPump, FaGlobeAfrica, FaCogs } from "react-icons/fa";
 import { GiCargoCrate } from "react-icons/gi";
 import { AiFillSafetyCertificate } from "react-icons/ai";
@@ -75,7 +76,7 @@ function ServicesSection() {
         style={{ backgroundImage: `url(${tr1})` }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="text-5xl font-bold pt-[60px] text-white text-center absolute inset-0 flex items-center justify-center z-10">
+        <h1 className="sec-topic text-5xl font-bold pt-[60px] text-white text-center absolute inset-0 flex items-center justify-center z-10">
           Services We Provide
         </h1>
       </div>
@@ -156,7 +157,7 @@ function ServicesSection() {
       </div> */}
 
       <div className="extras-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-[30px]"> 
-        <img src={tr1} alt="Fleet operations" className="grayscale w-full h-full object-cover hover:grayscale-0 transition duration-300"/> 
+        <img src={tr2} alt="Fleet operations" className="grayscale w-full h-full object-cover hover:grayscale-0 transition duration-300"/> 
         
         <div className="extra-title bg-gray-200 flex flex-col justify-center items-left p-[40px]"> 
           <h5 className="font-semibold uppercase tracking-wider text-[14px] mb-[15px] text-dark-g">
@@ -171,7 +172,7 @@ function ServicesSection() {
             <div className="extras-cards grid grid-cols-1 gap-[20px]"> 
               
               <div className="flex gap-8 items-center"> 
-                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
+                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold">
                   1 
                 </h1> 
                 <div className="e-content">

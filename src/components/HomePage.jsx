@@ -41,7 +41,7 @@ function HomePage() {
       <div id="values"><Values /></div>
       <div id="goals"><Goals /></div>
       <div id="mission"><MissionVision /></div>
-      <div id="services"><Services /></div>
+      <div id="service"><Services /></div>
       <AwardingBodies />
       <div id="awards"><Awards /></div>
       <div id="gallery"><Gallery /></div>

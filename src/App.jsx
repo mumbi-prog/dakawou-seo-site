@@ -19,7 +19,7 @@ function App() {
         <Route path="/gallerysection" element={<GallerySection />} />
         <Route path="/aboutsection" element={<AboutSection />} />
         <Route path="/contactsection" element={<ContactSection />} />
-        <Route path="/servisec" element={<ServicesSection />} />
+        <Route path="/services" element={<ServicesSection />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogDetails />} />
         <Route path="/terms" element={<Terms />} />

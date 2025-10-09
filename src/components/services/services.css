@@ -4,8 +4,14 @@
         padding: 20px 50px;
     }
 
-    .sec-section h1 {
+    .sec-topic h1 {
         font-size: 40px;
+    }
+}
+
+@media(min-width: 1101px) {
+    .extra-title h4{
+        max-width: 80%;
     }
 }
 
@@ -31,6 +37,15 @@
         align-items: center;
         text-align: left;
     }
+
+    .extra-title h4 {
+        max-width: fit-content;
+    }
+        
+    .extras-number {
+        height: 40px;
+        width: 90px;
+    }
 }
 
 @media (max-width: 770px) {
@@ -50,6 +65,15 @@
         margin-bottom: 1rem;
         margin-right: 20px;
     }
+
+    .extra-title h4{
+        max-width: 67%;
+    }
+
+    .extras-number{
+        height: 40px;
+        width: 50px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -62,7 +86,7 @@
         padding: 0 10px;
     }
 
-    .sec-section h1 {
+    .sec-topic {
         font-size: 32px;
     }
 
@@ -77,5 +101,8 @@
         margin: -7px auto;
     }
 
-    
+    .extr-title h4{
+        max-width: 90%;
+    }
+
 }

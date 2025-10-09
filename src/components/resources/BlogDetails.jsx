@@ -18,15 +18,15 @@ function BlogDetails() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-4xl mx-auto p-6 mt-[80px]">
+      <h1 className="text-4xl font-bold mb-[20px]">{blog.title}</h1>
       <img
         src={blog.image}
         alt={blog.title}
-        className="w-full h-80 object-cover rounded-xl mb-6 pt-[60px]"
+        className="w-full h-80 object-cover rounded-xl mb-6 pt-[20px]"
       />
-      <h1 className="text-4xl font-bold mb-2">{blog.title}</h1>
       <p className="text-gray-500 mb-8">
-        By {blog.author} • {blog.date}
+        Author: {blog.author} • {blog.date}
       </p>
 
       {blog.sections.map((section, index) => (

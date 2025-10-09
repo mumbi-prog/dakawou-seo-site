@@ -124,14 +124,14 @@ function Blog() {
     <div className="blog-section">
       {/* Hero Section */}
       <div
-        className="relative h-64 w-full bg-cover bg-center"
+        className="relative h-[300px] w-full bg-cover bg-center"
         style={{
           backgroundImage:
             "url('https://i.pinimg.com/736x/83/4c/85/834c8525f9071792434d476fdb5fdd7e.jpg')"
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
+        <h1 className="blog-topic text-5xl pt-[60px] font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
           Insights and Articles
         </h1>
       </div>
