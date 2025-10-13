@@ -18,13 +18,10 @@ import pcc3 from '../assets/tbdec/pic202.jpg'
 import pcc4 from '../assets/tbdec/pic11.jpg'
 import pcc9 from '../assets/tbdec/pic29.jpg' 
 import pcc15 from '../assets/tbdec/pic45.jpg'
-import pcc16 from '../assets/tbdec/pic47.jpg' 
 import pcc18 from '../assets/tbdec/b2.jpg'
 import pcc20 from '../assets/tbdec/pic189.jpg'
 import pcc22 from '../assets/tbdec/pic191.jpg' 
 import pcc25 from '../assets/tbdec/bilal.jpg'
-import pcc26 from '../assets/tbdec/tblue.jpg'
-import pcc27 from '../assets/wpics/pic44.jpg'
 import pcc28 from '../assets/tbdec/pic97.jpg'
 import pcc29 from '../assets/tbdec/pic67.jpg'
 import pcc33 from '../assets/tbdec/gladys.jpg'
@@ -43,7 +40,6 @@ import pca15 from '../assets/wpics/pic8.jpeg';
 import pca17 from '../assets/wpics/pic9.jpeg';
 import pca19 from '../assets/wpics/pic10.jpeg';
 import pca21 from '../assets/wpics/pic11.jpg';
-import pca38 from '../assets/wpics/pic45.jpg';
 import pca24 from '../assets/wpics/pic12a.jpeg';
 import pca26 from '../assets/wpics/pic13a.jpeg';
 import pca27 from '../assets/wpics/pic14.jpeg'; 
@@ -54,16 +50,16 @@ import pca37 from '../assets/wpics/pic21.jpg';
 import pca42 from '../assets/wpics/pic55.jpg';
 
 const galleryImages = [
-  img, pcc30, pca29, pc2, pca1, pcc16, pcc27, pcc28, pca21, im2, pcc3, pca13,
-    pcc4, pca36, pca7, pcc22, pcc20, pc5, pcc2,
-  pcc25, pcc15, pca19, pca2, pcc90, pca3, pca5, pc4, pca14, pcc26, pca33, pca17, pca27, pca24, pcc9, pcc29, pca37, pca42, pcc33, pca15, pca26, im5, pca38,
+  img, pcc30, pca29, pc2, pca1, pcc28, pca21, im2, pcc3, pca13,
+  pcc4, pca36, pca7, pcc22, pcc20, pc5, pcc2,
+  pcc25, pcc15, pca19, pca2, pcc90, pca3, pca5, pc4, pca14,  pca33, pca17, pca27, pca24, pcc9, pcc29, pca37, pca42, pcc33, pca15, pca26, im5,
   pcc32, pc3, pcc18
 ]
 
 function Gallery() {
   return (
     <div>
-      <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[60vh] z-[-20]">
+      <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]">
         <div className="gallery-overlay absolute inset-0 bg-black/60"></div>
         <h1 id='gset-title' className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
           Our Gallery
