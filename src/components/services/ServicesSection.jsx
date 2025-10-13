@@ -111,51 +111,6 @@ function ServicesSection() {
         </div>
       </div>
 
-      {/* <div className="extras-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-[30px]"> 
-        <img src={tr1} alt="" className="grayscale w-full h-full object-cover hover:grayscale-0 transition duration-300"/> 
-        <div className="extra-title bg-gray-200 flex flex-col justify-center items-left p-[40px]"> 
-          <h5 className="font-semibold uppercase tracking-wider text-[14px] mb-[15px] text-dark-g">
-            WHY PEOPLE CHOOSE US
-          </h5> 
-          <h4 className="capitalize text-3xl max-w-[60%]">
-            Lorem ipsum dolor sit <span className="italic">amet consectetur</span> 
-          </h4> 
-          <div className="extras-cards-container my-[20px] g font-parkinsans "> 
-            <div className="extras-cards grid grid-cols-1 gap-[20px]"> 
-              <div className="flex gap-8 items-center"> 
-                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
-                  1 
-                </h1> 
-                <div className="e-content">
-                  <h3 className="font-semibold text-[15px]">Skiled and Professional Team</h3>
-                  <p className="text-[13px]"></p> 
-                </div>
-              </div>
-
-              <div className="flex gap-8 items-center"> 
-                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
-                  2
-                </h1> 
-                <div className="e-content"> 
-                  <h3 className="font-semibold text-[15px]">Real Time Fleet Trackinf</h3> 
-                  <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum et distinctio.</p> 
-                </div> 
-              </div> 
-              
-              <div className="flex gap-8 items-center">
-                <h1 className="extras-number w-[70px] h-[50px] bg-dark-g rounded-full flex items-center justify-center text-white text-lg font-bold"> 
-                  3
-                </h1>
-                <div className="e-content">
-                  <h3 className="font-semibold text-[15px]">Timely and Efficient Service</h3> 
-                  <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum et distinctio.</p> 
-                </div> 
-              </div> 
-            </div> 
-          </div> 
-        </div> 
-      </div> */}
-
       <div className="extras-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-[30px]"> 
         <img src={tr2} alt="Fleet operations" className="grayscale w-full h-full object-cover hover:grayscale-0 transition duration-300"/> 
         

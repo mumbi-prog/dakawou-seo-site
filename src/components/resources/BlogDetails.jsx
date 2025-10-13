@@ -18,16 +18,17 @@ function BlogDetails() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto p-6 mt-[80px]">
-      <h1 className="text-4xl font-bold mb-[20px]">{blog.title}</h1>
+    <div className="max-w-5xl mx-auto p-6 mt-[80px]">
+      <h1 className="text-4xl font-bold mb-[20px] tracking-wide leading-[45px]">{blog.title}</h1>
+       <p className="text-gray-500 mb-[10px] font-parkinsans text-sm">
+        Author: {blog.author} • {blog.date}
+      </p>
       <img
         src={blog.image}
         alt={blog.title}
-        className="w-full h-80 object-cover rounded-xl mb-6 pt-[20px]"
+        className="w-screen h-[400px] object-cover rounded-xl mb-6 pt-[20px] min-w-5xl"
       />
-      <p className="text-gray-500 mb-8">
-        Author: {blog.author} • {blog.date}
-      </p>
+     
 
       {blog.sections.map((section, index) => (
         <div key={index} className="mb-8">
@@ -43,7 +44,7 @@ function BlogDetails() {
             ))}
 
           {section.bullets && (
-            <ul className="list-disc ml-6 text-gray-700 space-y-2">
+            <ul className="list-disc ml-6 text-gray-700 space-y-2 font-parkinsans">
               {section.bullets.map((bullet, j) => (
                 <li key={j}>{bullet}</li>
               ))}
