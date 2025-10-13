@@ -57,10 +57,8 @@ import './abt.css'
 import { Link } from 'react-router-dom'
 import abtsec from '../assets/pictures/about.png' 
 import dakawoutruck from '../assets/pictures/ph2.jpg' 
-import missionImg from '../assets/pictures/target.jpg' 
-import visionImg from '../assets/pictures/growth.jpg' 
+import missionImg from '../assets/pictures/target.jpg'
 
-import { FaMapMarkedAlt, FaUsers, FaHandsHelping, FaTruck } from 'react-icons/fa' 
 function AboutSection() {
   return (
     <div>

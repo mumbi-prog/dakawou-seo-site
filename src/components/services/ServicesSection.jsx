@@ -6,6 +6,7 @@ import { AiFillSafetyCertificate } from "react-icons/ai";
 
 import Footer from "../Footer";
 import "./services.css";
+import { Link } from "react-router-dom";
 
 function ServicesSection() {
   const serviceCards = [
@@ -71,7 +72,7 @@ function ServicesSection() {
 
   return (
     <div className="sec-section">
-      <div
+      {/* <div
         className="relative h-[300px] w-full bg-cover bg-center"
         style={{ backgroundImage: `url(${tr1})` }}
       >
@@ -79,9 +80,29 @@ function ServicesSection() {
         <h1 className="sec-topic text-5xl font-bold pt-[60px] text-white text-center absolute inset-0 flex items-center justify-center z-10">
           Services We Provide
         </h1>
+      </div> */}
+
+      <div className="about-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]" style={{ backgroundImage: `url(${tr1})` }} >
+        <div className="about-overlay absolute inset-0 bg-black/70"></div>
+                
+            <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
+                <h1 className="text-5xl md:text-6xl font-extrabold text-white text-center leading-tight mb-4">
+                    Services We Provide
+                </h1>
+                <div className="text-center text-white text-lg font-semibold tracking-wide">
+                    <Link to='/' className="font-semibold text-white hover:text-b-orange transition duration-300">
+                        Home
+                    </Link>
+                    <span className="mx-2 font-light opacity-80">|</span>
+                    <span className="font-bold text-b-orange">Our Services</span>
+                </div>
+            </div>
       </div>
 
-      <div className="sec-cont font-parkinsans py-[25px] px-[70px]">
+
+
+
+      <div className="sec-cont font-parkinsans mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:p-[70px]">
         <p className="sec-slogan text-[15px] text-center px-[50px] my-[20px]">
           At Dakawou Transport Limited, we deliver reliable, safe, and efficient
           transport and logistics solutions across Kenya and the greater East &
