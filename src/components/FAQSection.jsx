@@ -38,7 +38,7 @@ const FAQSection = () => {
       </h2>
       <div className="goal-line block m-auto w-[8%] border-t-[4px] border-b-orange "></div>
       
-      <div className="space-y-3 mt-[15px]">
+      <div className="space-y-3 mt-[15px] font-parkinsans">
         {faqItems.map((item, index) => (
           <FAQItem
             key={index}
