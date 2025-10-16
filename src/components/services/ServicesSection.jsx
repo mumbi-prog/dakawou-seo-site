@@ -103,7 +103,7 @@ function ServicesSection() {
 
 
       <div className="sec-cont font-parkinsans mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:p-[70px]">
-        <p className="sec-slogan text-[15px] text-center px-[50px] my-[20px]">
+        <p className="sec-slogan text-[14px] text-center px-[50px] my-[20px]">
           At Dakawou Transport Limited, we deliver reliable, safe, and efficient
           transport and logistics solutions across Kenya and the greater East &
           Central African region. With 40+ years of experience and a fleet of
