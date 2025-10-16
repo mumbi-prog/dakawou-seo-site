@@ -83,7 +83,7 @@ function AboutSection() {
             <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-[80px] pt-4 mb-10">
             <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-4 border-l-4 border-b-orange pl-3">Our Journey of Excellence</h2>
-                <p className="font-parkinsans leading-loose tracking-wide text-justify text-[16px] text-gray-600">
+                <p className="font-parkinsans leading-loose tracking-wide text-justify text-[14px] text-gray-600">
                     Dakawou Transport stands as a formidable and highly respected logistics partner across East, Central, and Southern Africa, 
                     driving the region&apos;s most critical supply chains.
                     <br /><br />
@@ -137,7 +137,7 @@ function AboutSection() {
 
             <div className="mt-[70px] bg-gray-50 p-6 rounded-lg border-t-4 border-b-orange">
                 <h3 className="text-3xl font-bold text-gray-600 mb-5 border-b pb-2">Trusted by Industry Leaders</h3>
-                <p className="font-parkinsans leading-loose tracking-wide text-justify text-[16px] text-gray-600">
+                <p className="font-parkinsans leading-loose tracking-wide text-justify text-[14px] text-gray-600">
                     Our commitment to reliability has made us the preferred partner for a diverse and demanding portfolio 
                     of clients. We proudly transport essential products for names like: <strong>Vivo Energy Kenya Limited, Rubis Energy Uganda, Galana Energy Kenya Ltd, 
                     Bamburi Cement, Koko Networks, Dalbit Petroleum, OLA Energy</strong>, and many more. This comprehensive service portfolio fuels essential sectors—from energy and petroleum to construction and consumer networks—across the region.
@@ -153,7 +153,7 @@ function AboutSection() {
                         <h3 className="text-3xl font-bold text-b-orange mb-4 flex items-center">
                          Our Vision and Mission
                         </h3>
-                        <p className="font-parkinsans leading-loose text-[16px] text-gray-700">
+                        <p className="font-parkinsans leading-loose text-[14px] text-gray-700">
                             To be the leading logistics provider in East and Central Africa, delivering safe, secure, and cost-effective 
                             transportation solutions that ensure the timely movement of critical cargo. We are committed to operational 
                             excellence, integrity, and incident-free performance, guided by strict Health, Safety, Security, and Environmental 
