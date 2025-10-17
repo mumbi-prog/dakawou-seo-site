@@ -19,8 +19,8 @@ function BlogDetails() {
 
   return (
     <div className="max-w-5xl mx-auto p-6 mt-[80px]">
-      <h1 className="text-4xl font-bold mb-[20px] tracking-wide leading-[45px]">{blog.title}</h1>
-       <p className="text-gray-500 mb-[10px] font-parkinsans text-sm">
+      <h1 className="text-4xl font-bold mb-[20px] leading-[40px]">{blog.title}</h1>
+       <p className="text-gray-500 mb-[10px] text-[13px]">
         Author: {blog.author} • {blog.date}
       </p>
       <img
@@ -38,13 +38,13 @@ function BlogDetails() {
 
           {section.paragraphs &&
             section.paragraphs.map((para, i) => (
-              <p key={i} className="text-gray-700 mb-3 leading-relaxed font-parkinsans">
+              <p key={i} className="text-gray-700 text-[14px] leading-loose mb-3 leading-relaxed font-parkinsans">
                 {para}
               </p>
             ))}
 
           {section.bullets && (
-            <ul className="list-disc ml-6 text-gray-700 space-y-2 font-parkinsans">
+            <ul className="list-disc ml-6 text-[14px] leading-loose text-gray-700 space-y-2 font-parkinsans">
               {section.bullets.map((bullet, j) => (
                 <li key={j}>{bullet}</li>
               ))}
