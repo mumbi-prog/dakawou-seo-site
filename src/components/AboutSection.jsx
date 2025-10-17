@@ -145,7 +145,7 @@ function AboutSection() {
             </div>
 
             <div className='mt-[70px]'>
-                <div className="grid grid-cols-2 lg:grid-cols-2 gap-10 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                     <div >
                         <img src={missionImg} alt="Mission Focus" className="shadow-2xl w-full max-h-80 object-cover" />
                     </div>
