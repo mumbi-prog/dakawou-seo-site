@@ -23,12 +23,12 @@ function Blog() {
         </div>
 
       {/* Blog List */}
-      <div className="blog-cont text-black mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:px-[10px] sm:px-[20px]">
+      <div className="blog-cont text-black mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:px-[10px] sm:px-[10px] [@media(max-width:500px)]:px-[2px]">
         <h5 className="font-semibold font-parkinsans text-[18px] px-[40px]">
           Recent Blog Posts
         </h5>
 
-        <div className="blog-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-8 px-[40px] py-[20px]">
+        <div className="blog-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-[40px] md:px-[10px] sm:px-[1px] py-[20px]">
           {blogPosts.map((post) => (
             <div
               key={post.id}
