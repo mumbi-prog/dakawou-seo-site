@@ -61,9 +61,18 @@ function Gallery() {
     <div>
       <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]">
         <div className="gallery-overlay absolute inset-0 bg-black/60"></div>
-        <h1 id='gset-title' className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
-          Our Gallery
-        </h1>
+          <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
+            <h1 className="text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
+              Our Gallery
+            </h1>
+            <div className="text-center text-white text-md font-semibold tracking-wide">
+                <Link to={`/blog`} className="font-semibold text-white hover:text-b-orange transition duration-300">
+                  Gallery
+                </Link>
+              <span className="mx-2 font-light opacity-80">|</span>
+              <span className="font-bold text-b-orange">Our Gallery</span>
+            </div>
+          </div>
       </div>
 
       <div className='mx-[20px] mt-[-140px] z-40 bg-white p-[13px] text-[15px]'>

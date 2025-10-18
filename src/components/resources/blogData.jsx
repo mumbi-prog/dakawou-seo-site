@@ -1,48 +1,3 @@
-// // src/components/blogData.jsx
-// export const blogPosts = [
-//     {
-//       id: 1,
-//       title: "Why Choosing the Right Transport Partner Matters for Your Business",
-//       author: "Admin",
-//       date: "6th Oct, 2025",
-//       slug: "choosing-right-transport-partner-kenya",
-//       image: "https://i.pinimg.com/736x/6c/1a/d9/6c1ad9b17042d2db57bb9eff96483590.jpg",
-//       sections: [
-//         {
-//           subtitle: "Introduction",
-//           paragraphs: [
-//             "In today’s competitive business environment, every decision counts — especially when it comes to how your goods move from point A to point B.",
-//             "Choosing the right transport partner in Kenya is not just about trucks on the road. It’s about building trust, ensuring safety, and keeping your customers happy."
-//           ]
-//         },
-//         {
-//           subtitle: "The Hidden Cost of Poor Transport Choices",
-//           bullets: [
-//             "Delays hurt customer trust. Late deliveries can damage your reputation.",
-//             "Losses add up. Poor handling often leads to damaged goods.",
-//             "Lack of reliability costs you. Constant follow-ups waste time and resources."
-//           ]
-//         },
-//         {
-//           subtitle: "Dakawou’s Advantage",
-//           paragraphs: [
-//             "At Dakawou Transport, we have been serving businesses across Kenya and East Africa for over 30 years.",
-//             "Our strong reputation is built on: a modern fleet, skilled drivers, efficient processes, and a customer-first approach."
-//           ]
-//         },
-//         {
-//           subtitle: "Conclusion",
-//           paragraphs: [
-//             "The right transport partner can transform your supply chain into a growth driver.",
-//             "At Dakawou, we don’t just move goods — we move businesses forward."
-//           ]
-//         }
-//       ]
-//     }
-//   ];
-  
-
-// blogData.js
 export const blogPosts = [
     {
       id: 1,
@@ -58,8 +13,7 @@ export const blogPosts = [
       metaDescription:
         "Discover why choosing the right transport partner in Kenya can boost efficiency, safety, and customer trust.",
       slug: "choosing-right-transport-partner-kenya",
-      image:
-        "https://i.pinimg.com/736x/41/05/d9/4105d9a92a3b2fe7a7cb245994e33be6.jpg",
+      image: "https://www.dakawou.com/dtlpics/ph6.jpg",
       captions: [
         "Every delivery matters — we get it right, every time.",
         "Your trusted transport partner in Kenya.",
@@ -125,8 +79,7 @@ export const blogPosts = [
       metaDescription:
         "See how Dakawou Transport guarantees safe, on-time delivery across Kenya and East Africa.",
       slug: "safe-reliable-goods-delivery-kenya",
-      image:
-        "https://i.pinimg.com/1200x/50/24/a4/5024a49b46c61ab2edfe0671f0720c34.jpg",
+      image: "https://www.dakawou.com/dtlpics/0394033221dcd7bda2e010b0397b4e9c.jpg",
       captions: [
         "Safety is not a choice, it’s our standard.",
         "Reliable deliveries, every time.",
@@ -200,8 +153,7 @@ export const blogPosts = [
       metaDescription:
         "Explore the top logistics trends in Kenya and how businesses can prepare with the right partner.",
       slug: "future-logistics-kenya-trends",
-      image:
-        "https://i.pinimg.com/736x/d2/a6/c8/d2a6c8a37e44dfe167503942ae878a68.jpg",
+      image:  "https://www.dakawou.com/dtlpics/ph10.jpg",
       captions: [
         "The future of logistics starts here.",
         "From Nairobi to the region, Dakawou delivers.",
@@ -273,8 +225,7 @@ export const blogPosts = [
       metaDescription:
         "Learn how Dakawou Transport helps SMEs in Kenya grow with flexible, affordable logistics.",
       slug: "sme-transport-solutions-kenya",
-      image:
-        "https://i.pinimg.com/736x/d2/a6/c8/d2a6c8a37e44dfe167503942ae878a68.jpg",
+      image: "https://www.dakawou.com/dtlpics/ph15.jpg",
       captions: [
         "Empowering SMEs through smart logistics.",
         "Affordable transport, without compromise.",

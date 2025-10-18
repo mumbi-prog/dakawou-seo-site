@@ -32,9 +32,3 @@
         display: block;
     }
 }
-
-@media (max-width: 525px) {
-    .about-container h1{
-        font-size: 35px;
-    }
-}

@@ -1,16 +1,28 @@
 import Contact from './Contact';
+import tr1 from "../assets/pictures/ph7.jpg";
+import { Link } from 'react-router-dom';
 
 const ContactSection = () => {
   return (
-    <div className="bg-gray-100 min-h-screen font-sans antialiased text-gray-800"> 
-      <div className="relative h-64 w-full bg-cover bg-center" style={{ backgroundImage: "url('https://i.pinimg.com/1200x/cf/57/a1/cf57a135fe20cdf083fd09cf713d26d0.jpg')" }}>
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="text-5xl font-bold text-white text-center absolute inset-0 flex items-center justify-center z-10">
-            Contact Us
-        </h1>
+    <div className="Ct-sec"> 
+      <div className="contact-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]" style={{ backgroundImage: `url(${tr1})` }} >
+        <div className="contact-overlay absolute inset-0 bg-black/60"></div>
+                
+            <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
+                <h1 className="sec-topic text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
+                    Contact Us
+                </h1>
+                <div className="text-center text-white text-md font-semibold tracking-wide">
+                    <Link to='/' className="font-semibold text-white  hover:text-b-orange transition duration-300">
+                        Home
+                    </Link>
+                    <span className="mx-2 font-light opacity-80">|</span>
+                    <span className="font-bold text-b-orange">Contact Section</span>
+                </div>
+            </div>
       </div>
 
-      <section className="py-20">
+      <section className="mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:p-[70px]">
         <div className=" mx-auto px-4 sm:px-6 lg:px-8">
 
           <div className="rounded-lg shadow-lg">

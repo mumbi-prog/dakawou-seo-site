@@ -72,24 +72,14 @@ function ServicesSection() {
 
   return (
     <div className="sec-section">
-      {/* <div
-        className="relative h-[300px] w-full bg-cover bg-center"
-        style={{ backgroundImage: `url(${tr1})` }}
-      >
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="sec-topic text-5xl font-bold pt-[60px] text-white text-center absolute inset-0 flex items-center justify-center z-10">
-          Services We Provide
-        </h1>
-      </div> */}
-
       <div className="about-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]" style={{ backgroundImage: `url(${tr1})` }} >
-        <div className="about-overlay absolute inset-0 bg-black/70"></div>
+        <div className="about-overlay absolute inset-0 bg-black/60"></div>
                 
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
-                <h1 className="sec-topic text-5xl md:text-4xl font-extrabold text-white text-center leading-tight mb-4">
+                <h1 className="sec-topic text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
                     Services We Provide
                 </h1>
-                <div className="text-center text-white text-lg md:text-[13px] font-semibold tracking-wide">
+                <div className="text-center text-white text-md font-semibold tracking-wide">
                     <Link to='/' className="font-semibold text-white  hover:text-b-orange transition duration-300">
                         Home
                     </Link>
@@ -98,12 +88,8 @@ function ServicesSection() {
                 </div>
             </div>
       </div>
-
-
-
-
       <div className="sec-cont font-parkinsans mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:p-[70px]">
-        <p className="sec-slogan text-[14px] text-center px-[50px] my-[20px]">
+        <p className="sec-slogan text-[14px] text-center px-[50px]">
           At Dakawou Transport Limited, we deliver reliable, safe, and efficient
           transport and logistics solutions across Kenya and the greater East &
           Central African region. With 40+ years of experience and a fleet of
