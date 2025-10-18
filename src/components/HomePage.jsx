@@ -17,7 +17,7 @@ import Testimonials from "../components/resources/Testimonials";
 
 function HomePage() {
   return (
-    <div className="hidden-upper pt-[80px]">  
+    <div className="hidden-upper pt-[80px]">
       <Helmet>
         <title>Dakawou Transport Limited</title>
         <meta
@@ -25,14 +25,26 @@ function HomePage() {
           content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region."
         />
         <meta property="og:title" content="Dakawou Transport Limited" />
-        <meta property="og:description" content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region." />
-        <meta property="og:image" content="https://dakawou.com/images/seo/s1.jpg" />
+        <meta
+          property="og:description"
+          content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region."
+        />
+        <meta
+          property="og:image"
+          content="https://dakawou.com/images/seo/s1.jpg"
+        />
         <meta property="og:url" content="https://dakawou.com/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Dakawou Transport Limited" />
-        <meta name="twitter:description" content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region." />
-        <meta name="twitter:image" content="https://dakawou.com/images/seo/s1.jpg" />
+        <meta
+          name="twitter:description"
+          content="Since 1985, Dakawou Transport Ltd has provided reliable and professional transport services across the region."
+        />
+        <meta
+          name="twitter:image"
+          content="https://dakawou.com/images/seo/s1.jpg"
+        />
       </Helmet>
 
       <div id="home"><Hero /></div>
@@ -50,9 +62,6 @@ function HomePage() {
       <div id="testimonials"><Testimonials /></div>
       <FAQSection />
       <div id="contact"><Contact /></div>
-
-      {/* <Blog/> */}
-      
     </div>
   );
 }
