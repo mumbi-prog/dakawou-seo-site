@@ -1,4 +1,10 @@
 /* responsiveness for the services section bit */
+@media(max-width: 1150px) {
+    .sec-topic {
+        font-size: 27px;
+    }
+}
+
 @media (max-width: 1100px) {
     .sec-cont {
         padding: 40px 50px;

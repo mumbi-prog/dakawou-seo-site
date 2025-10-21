@@ -23,7 +23,7 @@ function Blog() {
         </div>
 
       {/* Blog List */}
-      <div className="blog-cont text-black mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:px-[10px] sm:px-[10px] [@media(max-width:500px)]:px-[2px]">
+      <div className="blog-cont text-black mx-[30px] mt-[-70px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:px-[10px] sm:px-[10px] [@media(max-width:500px)]:px-[2px]">
         <h5 className="font-semibold font-parkinsans text-[18px] px-[40px]">
           Recent Blog Posts
         </h5>

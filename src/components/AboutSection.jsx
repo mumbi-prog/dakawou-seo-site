@@ -15,7 +15,7 @@ function AboutSection() {
                 <h1 className="text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
                     About Dakawou Transport Limited
                 </h1>
-                <div className="text-center text-white text-md font-semibold tracking-wide">
+                <div className="text-center text-white text-sm md:text-sm lg:text-md font-semibold tracking-wide">
                     <Link to='/' className="font-semibold text-white hover:text-b-orange transition duration-300">
                         Home
                     </Link>
@@ -25,7 +25,7 @@ function AboutSection() {
             </div>
         </div>
 
-        <div className="mx-[30px] mt-[-90px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:p-[70px]">
+        <div className="mx-[30px] mt-[-70px] z-40 bg-white shadow-xl rounded-lg py-[30px] px-[50px] md:p-[70px]">
             <div className="grid grid-cols-1 [@media(min-width:1050px)]:grid-cols-2 [@media(min-width:1250px)]:grid-cols-[2fr_1fr] gap-[80px] pt-4 mb-10">
             <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-4 border-l-4 border-b-orange pl-3">Our Journey of Excellence</h2>

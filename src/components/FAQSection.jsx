@@ -33,12 +33,12 @@ const FAQSection = () => {
 
   return (
     <div className="max-w-3xl mx-auto px-4 mt-[10px] mb-[30px] bg-white rounded-lg shadow-sm ">
-      <h2 className="font-playfair text-2xl font-bold text-center mb-[7px] text-center">
+      <h2 className="font-playfair text-4xl font-bold text-center mb-[7px] text-center">
         Frequently Asked Questions
       </h2>
       <div className="goal-line block m-auto w-[8%] border-t-[4px] border-b-orange "></div>
       
-      <div className="space-y-3 mt-[15px] font-parkinsans">
+      <div className="space-y-3 mt-[15px] font-parkinsans text-[14px]">
         {faqItems.map((item, index) => (
           <FAQItem
             key={index}

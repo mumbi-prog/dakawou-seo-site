@@ -3,7 +3,6 @@ import './landing.css'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import { RiArrowUpDoubleFill } from 'react-icons/ri'
-import { IoIosReturnLeft } from "react-icons/io";
 
 import img from '../assets/gallery/pic1.png'
 import pc2 from '../assets/gallery/pc2.png'
@@ -59,7 +58,7 @@ const galleryImages = [
 function Gallery() {
   return (
     <div>
-      <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]">
+      {/* <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]">
         <div className="gallery-overlay absolute inset-0 bg-black/60"></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
             <h1 className="text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
@@ -73,15 +72,26 @@ function Gallery() {
               <span className="font-bold text-b-orange">Our Gallery</span>
             </div>
           </div>
-      </div>
+        </div> */}
 
-      <div className='mx-[20px] mt-[-140px] z-40 bg-white p-[13px] text-[15px]'>
-        <ul>
-          <Link to='/' className="flex items-center font-parkinsans mb-[20px] text-b-orange font-semibold hover:underline hover:translate-x-2 transition duration-300">
-           <span><IoIosReturnLeft style={{ fontSize: '20px' }} /></span> 
-            <span className='pl-[13px]'>Home</span>
-          </Link>
-        </ul>
+      <div className="gallery-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]" style={{ backgroundImage: `url(${img})` }} >
+              <div className="gallery-overlay absolute inset-0 bg-black/60"></div>
+                      
+                  <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
+                      <h1 className="sec-topic text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
+                          Our Gallery
+                      </h1>
+                      <div className="text-center text-white text-sm md:text-sm lg:text-md font-semibold tracking-wide">
+                          <Link to='/' className="font-semibold text-white  hover:text-b-orange transition duration-300">
+                              Gallery
+                          </Link>
+                          <span className="mx-2 font-light opacity-80">|</span>
+                          <span className="font-bold text-b-orange">Our Gallery</span>
+                      </div>
+                  </div>
+              </div>
+
+      <div className='sec-cont font-parkinsans mx-[30px] mt-[-70px] z-40 bg-white shadow-xl rounded-lg pt-[10px] px-[50px] md:p-[40px]'>
 
         <div className="img-gallery grid grid-cols-1 md:grid-cols-4 gap-4">
           {galleryImages.map((src, i) => (

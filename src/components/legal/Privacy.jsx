@@ -15,7 +15,7 @@ function Privacy() {
         </h1>
       </div>
 
-      <div className="mx-[20px] mt-[-90px] z-40 bg-white p-[20px]">
+      <div className="mx-[20px] mt-[-70px] z-40 bg-white p-[20px]">
         <ul>
           <Link
             to="/"

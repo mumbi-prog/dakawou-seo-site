@@ -13,7 +13,7 @@ function Gallery() {
   return (
     <div id='gallery' className="main-gallery-container mt-[20px] mx-[20px] py-[20px]">
       <div className="title-heading pb-[10px]">
-        <h1 className='content-title font-playfair text-5xl font-bold text-center mb-[7px]'>Our Gallery</h1>
+        <h1 className='content-title font-playfair text-4xl font-bold text-center mb-[7px]'>Our Gallery</h1>
         <div className="val-line block m-auto w-[8%] md:w-[8.5%] border-t-[4px] border-b-orange"></div>
       </div>
 

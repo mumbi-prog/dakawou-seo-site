@@ -16,7 +16,7 @@ const FAQItem = ({
         onClick={onClick}
         aria-expanded={isOpen}
       >
-        <h3 className="text-lg font-medium text-gray-800">{question}</h3>
+        <h3 className="text-[14px] font-medium text-gray-800">{question}</h3>
         <span className="ml-4 flex-shrink-0 rounded-full bg-s-dark-g p-1.5 text-white">
           {isOpen ? <Minus size={18} /> : <Plus size={18} />}
         </span>
@@ -27,7 +27,7 @@ const FAQItem = ({
           isOpen ? "max-h-96 opacity-100 pb-6" : "max-h-0 opacity-0"
         )}
       >
-        <div className="px-2 pt-[5px] text-gray-600">{answer}</div>
+        <div className="px-2 pt-[5px] text-gray-600 text-[13px]">{answer}</div>
       </div>
     </div>
   );

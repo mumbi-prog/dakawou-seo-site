@@ -15,7 +15,7 @@
 //         </h1>
 //       </div>
 
-//       <div className="mx-[20px] mt-[-90px] z-40 bg-white p-[20px]">
+//       <div className="mx-[20px] mt-[-70px] z-40 bg-white p-[20px]">
 //         <ul>
 //           <Link
 //             to="/"
@@ -146,7 +146,7 @@ function Terms() {
       </div>
 
       {/* Main Content */}
-      <div className="mx-[20px] mt-[-90px] z-40 bg-white p-[20px]">
+      <div className="mx-[20px] mt-[-70px] z-40 bg-white p-[20px]">
         {/* Back to Home */}
         <ul>
           <Link
