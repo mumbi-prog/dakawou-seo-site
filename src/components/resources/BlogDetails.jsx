@@ -50,6 +50,14 @@ function BlogDetails() {
               ))}
             </ul>
           )}
+
+          {section.paragraphsec &&
+            section.paragraphsec.map((parasec, i) => (
+              <p key={i} className="text-gray-700 pt-[10px] text-[14px] leading-loose mb-3 leading-relaxed font-parkinsans">
+                {parasec}
+              </p>
+            ))}
+
         </div>
       ))}
 
