@@ -12,7 +12,7 @@ function AboutSection() {
         <div className="about-overlay absolute inset-0 bg-black/60"></div>
                 
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
-                <h1 className="text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
+                <h1 className="text-5xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
                     About Dakawou Transport Limited
                 </h1>
                 <div className="text-center text-white text-sm md:text-sm lg:text-md font-semibold tracking-wide">

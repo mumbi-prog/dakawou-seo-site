@@ -76,7 +76,7 @@ function ServicesSection() {
         <div className="about-overlay absolute inset-0 bg-black/60"></div>
                 
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
-                <h1 className="sec-topic text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
+                <h1 className="sec-topic text-5xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
                     Services We Provide
                 </h1>
                 <div className="text-center text-white text-sm font-semibold tracking-wide">

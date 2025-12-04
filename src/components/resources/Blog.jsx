@@ -9,7 +9,7 @@ function Blog() {
       <div className="about-container bg-cover bg-center relative overflow-hidden h-[50vh] z-[-20]" style={{ backgroundImage: "url('https://i.pinimg.com/736x/f6/ab/1f/f6ab1fb6342f6d15987167542bc6145c.jpg')" }} >
           <div className="about-overlay absolute inset-0 bg-black/60"></div>         
           <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4">
-            <h1 className="text-6xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
+            <h1 className="text-5xl md:text-5xl [@media(max-width:770px)]:text-[40px] font-extrabold text-white text-center leading-tight mb-4">
               Insights and Articles
             </h1>
             <div className="text-center text-white text-md font-semibold tracking-wide">
