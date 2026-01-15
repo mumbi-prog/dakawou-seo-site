@@ -2643,7 +2643,7 @@ export const blogPosts = [
         {
           subtitle: "Introduction",
           paragraphs: [
-            "When you hand over your goods to a transport company, you expect them to arrive safely and on time.",
+            "When you hand over your goods to a transport company, you expect them to arrive safely and on time.b",
             "At Dakawou, we take this responsibility seriously. Here’s how we make sure your cargo is protected every step of the way."
           ]
         },
