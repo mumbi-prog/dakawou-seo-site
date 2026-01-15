@@ -2636,7 +2636,7 @@ export const blogPosts = [
       image: "https://i.pinimg.com/1200x/5a/cf/cc/5acfccf340ce93f6dd72bb9ecf319901.jpg",
       captions: [
         "Safety is not a choice, it’s our standard.",
-        "Reliable deliveries, every time.",
+        "Reliable deliveries, every time. ",
         "Your cargo deserves Dakawou care."
       ],
       sections: [
